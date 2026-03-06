@@ -1,0 +1,32 @@
+{
+  "code": 200,
+  "msg": "成功",
+  "data": {
+    "raw_content": "```json\n{\n  \"suggestions\": [\n    {\n      \"method\": \"distribution\",\n      \"params\": {\"dimension\": \"问题分类\", \"top_n\": 10},\n      \"reason\": \"问题分类字段包含6个具体停车问题类型，通过分布分析可以直观展示各类停车问题的占比情况\",\n      \"expected_insight\": \"了解停车问题的主要类型分布，识别最突出的停车管理问题（如小区停车秩序混乱、停车秩序差等）\",\n      \"priority\": \"high\"\n    }\n  ]\n}\n```",
+    "suggestions": {
+      "suggestions": [
+        {
+          "method": "distribution",
+          "params": {
+            "dimension": "问题分类",
+            "top_n": 10
+          },
+          "reason": "问题分类字段包含6个具体停车问题类型，通过分布分析可以直观展示各类停车问题的占比情况",
+          "expected_insight": "了解停车问题的主要类型分布，识别最突出的停车管理问题（如小区停车秩序混乱、停车秩序差等）",
+          "priority": "high"
+        },
+        {
+          "method": "pareto",
+          "params": {
+            "dimension": "问题分类",
+            "threshold": 80
+          },
+          "reason": "应用帕累托法则分析，找出占80%投诉量的关键少数问题类型",
+          "expected_insight": "确定需要优先解决的核心停车问题类型，实现资源优化配置",
+          "priority": "medium"
+        }
+      ],
+      "analysis_plan": "整体分析思路：首先通过分布分析了解停车问题的基本类型结构，识别主要问题类型；然后通过帕累托分析确定关键少数问题；接着通过交叉分析深入了解问题分类的层级关系；最后通过趋势和地域分析探索问题的时空分布规律，为停车管理提供全面的数据支撑。"
+    }
+  }
+}

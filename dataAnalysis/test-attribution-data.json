@@ -1,0 +1,179 @@
+{
+  "target": "满意度评分",
+  "total_count": 10000,
+  "target_distribution": [
+    {"value": "满意", "count": 6500, "percentage": 65.0},
+    {"value": "一般", "count": 2500, "percentage": 25.0},
+    {"value": "不满意", "count": 1000, "percentage": 10.0}
+  ],
+  "factor_impacts": [
+    {
+      "factor": "col_5",
+      "factor_name": "来源渠道",
+      "impact_score": 85.5,
+      "cramers_v": 0.82,
+      "information_gain": 0.89,
+      "unique_values": 4,
+      "factor_values": [
+        {"value": "线上官网", "count": 4000},
+        {"value": "移动端APP", "count": 3000},
+        {"value": "电话客服", "count": 2000},
+        {"value": "线下门店", "count": 1000}
+      ],
+      "cross_detail": [
+        {
+          "factor_value": "线上官网",
+          "total": 4000,
+          "满意": 3000,
+          "满意_rate": 75.0,
+          "一般": 800,
+          "一般_rate": 20.0,
+          "不满意": 200,
+          "不满意_rate": 5.0
+        },
+        {
+          "factor_value": "移动端APP",
+          "total": 3000,
+          "满意": 2000,
+          "满意_rate": 66.67,
+          "一般": 800,
+          "一般_rate": 26.67,
+          "不满意": 200,
+          "不满意_rate": 6.67
+        },
+        {
+          "factor_value": "电话客服",
+          "total": 2000,
+          "满意": 1000,
+          "满意_rate": 50.0,
+          "一般": 800,
+          "一般_rate": 40.0,
+          "不满意": 200,
+          "不满意_rate": 10.0
+        },
+        {
+          "factor_value": "线下门店",
+          "total": 1000,
+          "满意": 500,
+          "满意_rate": 50.0,
+          "一般": 400,
+          "一般_rate": 40.0,
+          "不满意": 100,
+          "不满意_rate": 10.0
+        }
+      ]
+    },
+    {
+      "factor": "col_8",
+      "factor_name": "服务时长",
+      "impact_score": 78.2,
+      "cramers_v": 0.75,
+      "information_gain": 0.82,
+      "unique_values": 3,
+      "factor_values": [
+        {"value": "短时服务", "count": 3500},
+        {"value": "标准服务", "count": 4500},
+        {"value": "长时服务", "count": 2000}
+      ],
+      "cross_detail": [
+        {
+          "factor_value": "短时服务",
+          "total": 3500,
+          "满意": 1750,
+          "满意_rate": 50.0,
+          "一般": 1400,
+          "一般_rate": 40.0,
+          "不满意": 350,
+          "不满意_rate": 10.0
+        },
+        {
+          "factor_value": "标准服务",
+          "total": 4500,
+          "满意": 3250,
+          "满意_rate": 72.22,
+          "一般": 1000,
+          "一般_rate": 22.22,
+          "不满意": 250,
+          "不满意_rate": 5.56
+        },
+        {
+          "factor_value": "长时服务",
+          "total": 2000,
+          "满意": 1500,
+          "满意_rate": 75.0,
+          "一般": 400,
+          "一般_rate": 20.0,
+          "不满意": 100,
+          "不满意_rate": 5.0
+        }
+      ]
+    },
+    {
+      "factor": "col_12",
+      "factor_name": "客服专业度",
+      "impact_score": 92.1,
+      "cramers_v": 0.88,
+      "information_gain": 0.94,
+      "unique_values": 5,
+      "factor_values": [
+        {"value": "初级", "count": 1000},
+        {"value": "中级", "count": 2500},
+        {"value": "高级", "count": 3000},
+        {"value": "专家", "count": 2000},
+        {"value": "资深专家", "count": 1500}
+      ],
+      "cross_detail": [
+        {
+          "factor_value": "初级",
+          "total": 1000,
+          "满意": 300,
+          "满意_rate": 30.0,
+          "一般": 500,
+          "一般_rate": 50.0,
+          "不满意": 200,
+          "不满意_rate": 20.0
+        },
+        {
+          "factor_value": "中级",
+          "total": 2500,
+          "满意": 1500,
+          "满意_rate": 60.0,
+          "一般": 800,
+          "一般_rate": 32.0,
+          "不满意": 200,
+          "不满意_rate": 8.0
+        },
+        {
+          "factor_value": "高级",
+          "total": 3000,
+          "满意": 2400,
+          "满意_rate": 80.0,
+          "一般": 500,
+          "一般_rate": 16.67,
+          "不满意": 100,
+          "不满意_rate": 3.33
+        },
+        {
+          "factor_value": "专家",
+          "total": 2000,
+          "满意": 1800,
+          "满意_rate": 90.0,
+          "一般": 180,
+          "一般_rate": 9.0,
+          "不满意": 20,
+          "不满意_rate": 1.0
+        },
+        {
+          "factor_value": "资深专家",
+          "total": 1500,
+          "满意": 1500,
+          "满意_rate": 100.0,
+          "一般": 0,
+          "一般_rate": 0.0,
+          "不满意": 0,
+          "不满意_rate": 0.0
+        }
+      ]
+    }
+  ]
+}
